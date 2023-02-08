@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
-
+    [SerializeField] string messageText;
+    
     void Start()
     {
-       Debug.Log("Hello World!"); 
+       Debug.Log(messageText+" !"); 
     }
 
 
